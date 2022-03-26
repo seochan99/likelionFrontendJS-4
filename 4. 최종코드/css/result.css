@@ -70,6 +70,7 @@
   font-size: 1.2em;
 }
 
+/* media로 반응형 적용법 */
 /* 모바일 화면 */
 @media (max-width: 1000px){
   #result{

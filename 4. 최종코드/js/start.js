@@ -3,7 +3,7 @@ const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 
 const endPoint = 10;
-const select = [0, 0, 0, 0,0];
+const select = [0, 0, 0, 0];
 
 function calResult(){
   console.log(select);
@@ -38,11 +38,6 @@ function setResult(){
   resultDescTitle2.innerHTML = infoList[point].descTitle2;
   resultDesc2.innerHTML = infoList[point].desc2;
 
-  const resultDesc3 = document.querySelector('.resultDesc3');
-  const resultDescTitle3 = document.querySelector('.resultDescTitle3');
-  resultDescTitle3.innerHTML = infoList[point].descTitle3;
-  resultDesc3.innerHTML = infoList[point].desc3;
-
   const resultIf = document.querySelector('.ifU');
   const resultbasicj1 = document.querySelector('.basic1');
   const resultbasicj2 = document.querySelector('.basic2');
@@ -53,6 +48,7 @@ function setResult(){
   resultbasicj3.innerHTML = infoList[point].resultbasic3;
 }
 
+// 결과로가기
 function goResult(){
   qna.style.WebkitAnimation = "fadeOut 1s";
   qna.style.animation = "fadeOut 1s";
@@ -66,6 +62,7 @@ function goResult(){
     setResult();
 }
 
+//답추가하기
 function addAnswer(answerText, qIdx, idx){
   var a = document.querySelector('.answerBox');
   var answer = document.createElement('button');
@@ -99,6 +96,7 @@ function addAnswer(answerText, qIdx, idx){
   }, false);
 }
 
+// 다음으로
 function goNext(qIdx){
   if(qIdx === endPoint){
     goResult();

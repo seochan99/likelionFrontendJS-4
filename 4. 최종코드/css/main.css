@@ -4,17 +4,7 @@
   text-align: center;
   border-radius: 20px;
 }
-@media (max-width: 900px){
-  .testBoxTitle{
-    font-size: 24px;
-  }
-  .testBoxBody{
-    font-size: 15px;
-  }
-  #main{
-    width: 90%;
-  }
-}
+
 p{
   font-size: 20px;
 }
