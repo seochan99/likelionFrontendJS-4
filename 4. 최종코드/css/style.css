@@ -23,7 +23,10 @@
     font-weight: normal;
     font-style: normal;
     }
+.jalan{
+    font-family: 'yg-jalnan';
+}
 
-*{
-    font-family: 'Noto Sans KR', sans-serif;
-    }
+.Gmarket{
+    font-family: 'GmarketSansLight';
+}
