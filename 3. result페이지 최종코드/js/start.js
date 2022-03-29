@@ -111,7 +111,6 @@ function addAnswer(answerText,qIdx,idx){
 
 
 function goNext(qIdx){
-
     //질문이 다 끝났을때 결과로 이동하는 함수 만들어주기 
     if(qIdx === endPoint){
         goResult();
