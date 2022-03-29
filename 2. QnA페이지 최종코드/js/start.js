@@ -5,6 +5,8 @@ const qna = document.querySelector("#qna");
 const endPoint = 10
 
 
+
+
 function addAnswer(answerText,qIdx){
     var a = document.querySelector('.answerBox');
     // createElement 설명 
@@ -45,6 +47,7 @@ function addAnswer(answerText,qIdx){
 
 
 function goNext(qIdx){
+    
 
     var q = document.querySelector('.qBox');
     // q.innerHTML = qnaList[0].q // 출력되는거 확인 가능 

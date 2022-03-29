@@ -33,12 +33,12 @@
   font-size:1.5em;
   color: #868686;
 }
-.resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
+.resultDescTitle1, .resultDescTitle2{
   font-size: 1.5em; 
   font-family: GmarketSansMedium;
 }
 
-.resultDesc1, .resultDesc2, .resultDesc3{
+.resultDesc1, .resultDesc2{
   margin-top: 10px;
   margin-bottom: 14px;
   font-size: 1em;
@@ -56,19 +56,6 @@
 }
 
 
-.ifU{
-  margin-top: 20px;
-  margin-bottom: 8px;
-  text-decoration: underline;
-  color: orange;
-  font-size: 1.7em;
-  font-family: GmarketSansMedium;
-}
-
-.basic1, .basic2, .basic3{
-  font-family: GmarketSansMedium;
-  font-size: 1.2em;
-}
 
 /* media로 반응형 적용법 */
 /* 모바일 화면 */
@@ -89,37 +76,14 @@
     color: #868686;
     font-family: GmarketSansMedium;
   }
-  .resultDescTitle1, .resultDescTitle2, .resultDescTitle3{
+  .resultDescTitle1, .resultDescTitle2{
     font-family: GmarketSansMedium;
     font-size: 0.9em; 
   }
-  .resultDesc1, .resultDesc2, .resultDesc3{
+  .resultDesc1, .resultDesc2{
     font-size: 0.7em;
     font-family: GmarketSansMedium;
     color: #868686;
-  }
-  .likelionApllyImg{
-    width: 35%;
-    margin: 25px;
-  }
-  .likelionApplyText{
-    font-size: 1.1em; 
-    font-family: GmarketSansMedium;
-    margin-bottom: 10px;
-  }
-  .goSchool{
-    font-size: 0.8em;
-    border : 1px solid none; 
-    padding: 10px 13px; 
-    font-weight: 600;  
-    border-radius: 10px; 
-    background-color: rgb(255, 235, 179);
-  }
-  .goSchool:hover{
-    background-color: orange;
-    color : white;
-    text-decoration: none;
-    text-decoration-line: none;
   }
   .applyBox{
     text-align: center;
@@ -138,21 +102,3 @@
     width: 14%;
     margin: 5px;
   }
-  .naverIcon{
-    transform: translateY(1px);
-    width: 17%;  
-  }
-  .ifU{
-    margin-top: 20px;
-    margin-bottom: 8px;
-    text-decoration: underline;
-    color: orange;
-    font-size: 1.3em;
-    font-family: GmarketSansMedium;
-  }
-  
-  .basic1, .basic2, .basic3{
-    font-family: GmarketSansMedium;
-    font-size: 0.7em;
-  }
-}

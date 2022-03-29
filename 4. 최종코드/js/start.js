@@ -13,6 +13,7 @@ function calResult(){
 
 function setResult(){
   let point = calResult();
+
   const resultNameIntro = document.querySelector('.resultInro');
   resultNameIntro.innerHTML = infoList[point].nameIntro;
 
@@ -37,15 +38,7 @@ function setResult(){
   const resultDescTitle2 = document.querySelector('.resultDescTitle2');
   resultDescTitle2.innerHTML = infoList[point].descTitle2;
   resultDesc2.innerHTML = infoList[point].desc2;
-
-  const resultIf = document.querySelector('.ifU');
-  const resultbasicj1 = document.querySelector('.basic1');
-  const resultbasicj2 = document.querySelector('.basic2');
-  const resultbasicj3 = document.querySelector('.basic3');
-  resultIf.innerHTML = infoList[point].resultif;
-  resultbasicj1.innerHTML = infoList[point].resultbasic1;
-  resultbasicj2.innerHTML = infoList[point].resultbasic2;
-  resultbasicj3.innerHTML = infoList[point].resultbasic3;
+  
 }
 
 // 결과로가기

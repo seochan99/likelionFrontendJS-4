@@ -98,10 +98,6 @@ const qnaList = [
       desc1:'반복적인 일은 질색인 당신! 효율과 정답을 찾아 헤매는 당신은 찐 개발자의 머리를 타고 났습니다!',
       descTitle2:'🦁 당신은 폭넓은 이해력과 뛰어난 설계능력을 가지고 있어요.',
       desc2:'백엔드 개발자들은 눈에 보이지 않는 것들을 개발합니다. 그렇기에 추상적인 것들을 잘 받아들이는 능력이 필요하죠. 실체 없는 것을 구상하고 이해하는 탁월한 능력을 가진 당신은 백엔드 개발자로서 서비스와 데이터 저장에 대한 구조를 이해하는 탁월한 능력을 가졌답니다.',
-      resultif:'🔍 백엔드 개발자가 되려면?',
-      resultbasic1:'✔️기초언어: C/C++,Python,Java',
-      resultbasic2:'✔️필수 지식: 통신개념(HTTP), 데이터베이스(DB), 운영체제(OS)',
-      resultbasic3:'✔️고급 스킬: Django, Spring, Node.js, Flask',
     },
     {
       nameIntro :'보이는 부분은 내가책임질께!',
@@ -110,10 +106,6 @@ const qnaList = [
       desc1:'도전적이고 창의적이며 트렌드에 민감하기 때문에 빠르게 변화하는 웹 기술을 효율적으로 다룰 수 있어요.',
       descTitle2:'🦁 당신은 섬세한 관찰력을 가지고 있어요.',
       desc2:'사용자의 입장에서, 디테일한 부분까지 놓치지 않고 구현할 수 있는 능력을 가지고 있으므로 사용자에게 적합한 UI를 제공할 수 있어요.',
-      resultif:'🔍 프론트엔드 개발자가 되려면?',
-      resultbasic1:'✔️기초언어: html, css, javascript',
-      resultbasic2:'✔️필수 지식: 웹 개념, boot strap, jQuery',
-      resultbasic3:'✔️고급 스킬: angular, react, vue.js',
     },
     {
       nameIntro :"보이는 부분은 내가 책임질께!",
@@ -122,10 +114,6 @@ const qnaList = [
       desc1:'아름다움을 표현할 수 있는 디자인감각 및 색채감각이 타고난 당신은 새롭고도 트렌디한 디자인들을 막힘없이 창의적으로 생각해냅니다.',
       descTitle2:'🦁 당신은 상대방이 원하는 니즈를 파악하는 뛰어난 통찰력과 관찰력을 가지고 있어요.',
       desc2:'디자이너의 가장 큰 역할은 사용자가 편리한 디자인을 하는 것이기 때문에 누군가의 니즈를 말하지 않아도 캐치해내는 능력을 가진 당신은 사용자에게 가장 적합한 디자인을 제공할 수 있어요.',
-      resultif:'🔍 UI/UX디자이너가 되려면?',
-      resultbasic1:'✔️기초언어: html, css, javascript',
-      resultbasic2:'✔️필수 지식: UI/UX 지식, 웹 레이아웃, 디자인',
-      resultbasic3:'✔️고급 스킬: Adobe XD, Figma, Sketch',
     },
     {
       nameIntro :"기획은 나한테 맡기라구~",
@@ -134,10 +122,6 @@ const qnaList = [
       desc1:'서비스 기획을 위해 디자이너, 백엔드, 프론트엔드 등 모든 직군들과 소통을 하는 기획자는 원만한 소통능력과 업무를 효율적으로 이끌어 나가는 타고난 리더십을 지녔습니다.',
       descTitle2:'🦁 당신은 섬세한 분석력을 가지고 있어요.',
       desc2:'기획자는 사용자가 원하는 요구사항 및 사용자들의 성향등을 분석하며 예리한 시각으로  서비스 전체를 뛰어난 분석력으로 통괄합니다.',
-      resultif:'🔍 기획자가 되려면?',
-      resultbasic1:'✔️기초언어:html, css, javascript',
-      resultbasic2:'✔️필수 지식: UI/UX 지식, 데이터 분석, 마켓팅',
-      resultbasic3:'✔️고급 스킬: protopie, GA, Adobe XD/Figma',
     }
   ]
   
