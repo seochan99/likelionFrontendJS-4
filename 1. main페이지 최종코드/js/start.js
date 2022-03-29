@@ -1,6 +1,7 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 
+
 // 화면전환 
 function begin(){
     main.style.WebkitAnimation = "fadeOut 1s";
