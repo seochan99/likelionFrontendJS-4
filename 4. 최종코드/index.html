@@ -89,12 +89,6 @@
         <div class="resultDesc2">
           
         </div>
-        <div class="resultDescTitle3">
-
-        </div>
-        <div class="resultDesc3">
-          
-        </div>        
       </div>
 
       <div class="shareReusltBox">
@@ -125,10 +119,10 @@
   function setShare(){
     var resultImg = document.querySelector('#resultImg'); 
     var resultAlt = resultImg.firstElementChild.alt; 
-    const shareTitle = '나의 개발자 유형은 무엇일까? 나의 개발자 유형을 확인해보고 공유해보자!!'
+    const shareTitle = '나의 개발자 유형은 무엇일까? 나의 개발자 유형을 확인해보고 공유해보자!!';
     const shareDes=infoList[resultAlt].name;
-    const shareImage= 'https://with910dgree.netlify.app/' + 'img/초기1.jpeg';
-    const shareURL = 'https://with910dgree.netlify.app/' + 'result-' + resultAlt + '.html';
+    const shareImage= 'https://with910dgree.netlify.app/' + 'img/title_img.png';
+    const shareURL = 'https://with910dgree.netlify.app/';
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
