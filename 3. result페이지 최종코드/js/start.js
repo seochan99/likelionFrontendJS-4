@@ -94,12 +94,15 @@ function addAnswer(answerText,qIdx,idx){
         }
         // 사라지는 순간 바로 none이 되면 안되니깐 setTimeout 함수제작 
         setTimeout(()=>{
+            
             //타겟 타입별 늘려주기 
             var target = qnaList[qIdx].a[idx].type;
 
+            //타겟에 들어있는 모든 타입 1씩 추가 
             for(let i=0;i<target.length;i++){
                 select[target[i]]+=1;
             }
+
             for(let i=0 ;i<children.length;i++){
                 children[i].style.display = 'none'; // 버튼들 안보이게
             }
