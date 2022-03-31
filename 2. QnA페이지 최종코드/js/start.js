@@ -48,7 +48,6 @@ function addAnswer(answerText,qIdx){
 
 function goNext(qIdx){
     
-
     var q = document.querySelector('.qBox');
     // q.innerHTML = qnaList[0].q // 출력되는거 확인 가능 
     q.innerHTML = qnaList[qIdx].q; // 출력되는거 확인 가능 
