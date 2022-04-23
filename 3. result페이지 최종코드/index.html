@@ -1,70 +1,60 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개발자 유형 테스트</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <!-- CSS불러오기 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    </head>
+    <title>개발자 유형 테스트</title>
+</head>
 <body>
-    <div class="container">
-        <section id="main" class="mx-auto my-5 py-5 px-4">
-            <h1 class="jalan">나의 <span style="color: orange;">개발자</span> 유형은?</h1>
-            <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
-                <img src="./img/title_img.png" alt="mainImage" class="img-fluid">
-            </div>
+    <section id="main" class="my-5 py-5 px-4 mx-auto">
+        <h1 class="jalan">나의 개발자 유형은?</h1>
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+            <img src="./img/title_img.png" alt="title_img" class="img-fluid"/>
+        </div>
+        <p class="Gmarket mt-5">
+            멋쟁이사자처럼 프론트엔드 4번째 교육에서 제작한</br>
+            개발자 유형 테스트입니다.
+            <br><br>
+            아래 시작하기 버튼을 눌러주세요.
+        </p>
+        <button type="button" class="startBtn btn" onclick="js:start()">시작하기</button>
 
-            <p class="Gmarket" style="margin-top: 10px;">
-                멋쟁이사자처럼 프론트엔드 4번째 교육에서 제작한</br>
-                개발자 유형 테스트입니다!
-                <br><br>
-                아래 시작하기 버튼을 눌러주세요 ! 
-            </p>
-            <button class="jalan btn mt-3 startButton" type="button" onclick="js:begin()">시작하기</button>
-        </section>
-
-        <section id="qna">
-            <div class="status mx-auto mt-5">
-                <div class="countStatus">
-
-                </div>
-                <div class="statusBar">
-
-                </div>
-            </div>
-            <!-- 질문상자 -->
-            <!-- 공간을 만든후 innerHTML로 질문들을 넣을 예정  -->
-            <div class="qBox my-5 py-3 mx-auto" >
+    </section>
+    <section id="qna">
+        <div class="status mx-auto mt-5">
+            <div class="countStatus">
 
             </div>
-            <!-- 답변상자 -->
-            <div class="answerBox">
+            <div class="statusBar">
 
             </div>
-            
-            
-        </section>
 
-    <section id="result" class="mx-auto my-5 py-5 px-4">
+        </div>
+        <div class="qBox my-5 py-3 mx-auto">
 
-        <h2 style="font-family: yg-jalnan;">나의 결과는 ?!</h2>
+        </div>
+
+        <div class="aBox">
+
+        </div>
         
-        <div style="font-family: GmarketSansMedium;">
-
-            <div class="resultInro">
+    </section>
+    <section id="result" class="mx-auto my-5 py-5 px-4">
+        <h2 class="jalan"> 나의 결과는 ?!</h2>
+        <div class="Gmarket">
+            <div class="resultIntro">
 
             </div>
-            <div class="resultname">
+            <div class="resultName">
 
             </div>
         </div>
+        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 mx-auto">
 
-        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
         </div>
-
         <div class="resultDesc">
             <div class="resultDescTitle1">
 
@@ -76,12 +66,12 @@
 
             </div>
             <div class="resultDesc2">
+
             </div>
-
         </div>
-    </section>
 
+    </section>
     <script src="./js/data.js"></script>
-    <script src="./js/start.js"></script>
+    <script src="./js/mbti.js"></script>
 </body>
 </html>

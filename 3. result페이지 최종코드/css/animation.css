@@ -1,22 +1,21 @@
 @keyframes fadeIn {
     from {opacity: 0;}
-    to {opacity: 1;}
+    to {opacity: 1;}   
 }
 @keyframes fadeOut {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0;}   
 }
-/* 크롬에서는 webkit 애니메이션이 사용됨 */
+
 @-webkit-keyframes fadeIn {
     from {opacity: 0;}
-    to {opacity: 1;}
+    to {opacity: 1;}   
 }
 @-webkit-keyframes fadeOut {
     from {opacity: 1;}
-    to {opacity: 0;}
+    to {opacity: 0;}   
 }
 
-/* 버튼클릭할때도 애니메이션주기 */
 .fadeIn{
     animation: fadeIn;
     animation-duration: 0.5s;

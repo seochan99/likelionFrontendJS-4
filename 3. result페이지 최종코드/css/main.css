@@ -1,20 +1,21 @@
 #main{
     background-color: whitesmoke;
-    width: 80%;
     text-align: center;
-    border-radius: 23px;
+    width: 80%;
+    border-radius: 20px;
 }
 p{
     font-size: 20px;
 }
-.startButton{
-    padding : 13px 50px;
-    border:3px solid orange;
-    color : orange;
+
+.startBtn{
+    padding: 13px 50px;
+    border: 3px solid orange;
+    color: orange;
     border-radius: 8px;
 }
-
-.startButton:hover, .startButton:active{
+.startBtn:hover, .startBtn:active {
     background-color: orange;
     color: whitesmoke;
+    
 }
