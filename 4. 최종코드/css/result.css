@@ -1,104 +1,56 @@
 #result{
-  display: none;
-  background-color: whitesmoke;
-  width: 80%;
-  text-align: center;
-  border-radius: 20px;
-}
-#shareResult{
-  background-color: whitesmoke;
-  width: 80%;
-  text-align: center;
-  border-radius: 20px;
-}
-
-
-.resultname{
-  font-size: 26px;
-}
-
-.resultDesc{
-  font-size: 20px;
-  font-family: GmarketSansMedium;
-}
-
-
-.resultname{
-  margin-top: 10px;
-  font-size: 2em; 
-  border: none;
-  font-family: GmarketSansMedium;
-}
-.resultInro{
-  font-size:1.5em;
-  color: #868686;
-}
-.resultDescTitle1, .resultDescTitle2{
-  font-size: 1.5em; 
-  font-family: GmarketSansMedium;
-}
-
-.resultDesc1, .resultDesc2{
-  margin-top: 10px;
-  margin-bottom: 14px;
-  font-size: 1em;
-  color: #868686;
-  font-family: GmarketSansMedium;
-}
-
-.shareReusltBox{
-  margin-top: 40px;
-}
-.shareReuslt{
-  font-size: 1.5em; 
-  font-family: GmarketSansMedium;
-  color: #868686;
-}
-
-
-
-/* media로 반응형 적용법 */
-/* 모바일 화면 */
-@media (max-width: 1000px){
-  #result{
     display: none;
-    width: 90%;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
   }
-
+  #shareResult{
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  
+.resultname{
+    font-size: 26px;
+  }
+  
+.resultDesc{
+    font-size: 20px;
+    font-family: GmarketSansMedium;
+  }
+  
+  
   .resultname{
-    margin-top: 6px;
-    font-size: 1.5em; 
+    margin-top: 10px;
+    font-size: 2em; 
     border: none;
     font-family: GmarketSansMedium;
   }
   .resultInro{
+    font-size:1.5em;
+    color: #868686;
+  }
+  .resultDescTitle1, .resultDescTitle2{
+    font-size: 1.5em; 
+    font-family: GmarketSansMedium;
+  }
+  
+  .resultDesc1, .resultDesc2{
+    margin-top: 10px;
+    margin-bottom: 14px;
     font-size: 1em;
     color: #868686;
     font-family: GmarketSansMedium;
   }
-  .resultDescTitle1, .resultDescTitle2{
-    font-family: GmarketSansMedium;
-    font-size: 0.9em; 
-  }
-  .resultDesc1, .resultDesc2{
-    font-size: 0.7em;
-    font-family: GmarketSansMedium;
-    color: #868686;
-  }
-  .applyBox{
-    text-align: center;
-    margin-top: 20px;
-    display: block;
-  }
+  
   .shareReusltBox{
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .shareReuslt{
-    font-size: 1em; 
+    font-size: 1.5em; 
     font-family: GmarketSansMedium;
     color: #868686;
-  }
-  .sharebtn_custom{
-    width: 14%;
-    margin: 5px;
   }
