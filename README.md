@@ -9,10 +9,8 @@
 테스트의 메인페이지 최종파일입니다.
 
 ## 사용한 JS 문법
-
 ### setTimeout(): 이 메서드는 만료된 후 함수나 지정한 코드 조각을 실행하는 타이머를 설정합니다.
-
-```
+``` 
 var timeoutID = setTimeout(function[, delay, arg1, arg2, ...]);
 var timeoutID = setTimeout(function[, delay]);
 var timeoutID = setTimeout(code[, delay]);
